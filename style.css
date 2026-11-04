@@ -1,0 +1,43 @@
+body{ margin: 0; font-family: Arial, sans-serif; 
+bacground: #080d18; color: white;}
+
+header{ background: #101e35; text-align: center; padding: 50px 15px;}
+
+header h1 {font-size: 60px; color: orange; margin-bottom: 10px;}
+
+header h2 {fon-size: 25px;}
+
+nav a {color: white; text-decoration: none; margin: 15px; font-weight: bold;}
+
+nav a:hover {color: orange;}
+
+section{bacground: #14243b; margin: 25px auto;
+padding: 30px 20px; border-radius: 15px; max-width: 850px;tex-align: center;}
+
+section h2 {color:orange;}
+
+.service{bacground: #203957; padding: 20px; margin: 15px 0; border-radius: 10px;}
+
+.service h3 {color:orange;}
+
+.button {display:inline-block;bacground: #16a765;
+color:white;padding: 15px 25px;text-decoration:none;
+border-radius: 8px;font-weight:bold;}
+
+.button:hover {bacground:#101e35; text-align:center;
+padding:30px;}
+
+footer {bacground: #101e35; text-align:center;
+padding:30px;}
+
+@media (max-width: 600px) {header h1 {font-size:42px;}
+
+nav a{
+	margin: 7px;
+}
+
+section {
+	margin: 15px;
+	padding: 20px;
+}
+	
